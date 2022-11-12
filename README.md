@@ -1,11 +1,5 @@
 # electrumx-installer
-A script to automate the installation of electrumx 🤖
-
-Installing electrumx isn't really straight-forward (yet). You have to install the latest version of Python and various dependencies for
-one of the database engines. Then you have to integrate electrumx into your init system.
-
-`electrumx-installer` simplifies this process to running a single command. All that's left to do for you
-is to customise the configuration and to start electrumx.
+This is a fork from [Bauerj](https://github.com/bauerj/electrumx-installer)'s electrumx-installer that supports Ubuntu 22.04 with Python 3.8 installation.
 
 ## Usage
 This installs electrumx using the default options:
